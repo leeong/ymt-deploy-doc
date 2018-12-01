@@ -1,4 +1,4 @@
-# 部署文档
+# 有米兔部署文档 v0.2
 
 ### 开发环境
 1. Nginx 
@@ -21,16 +21,24 @@
 1. php-dom
 1. php-gd
 1. php-bcmath
+1. 有米兔官方提供的解密扩展(php_screw_plus.so)
 
 ### 部署资源包
-1. ymtOld.tgz 
+1. ymtOld.zip 
 
     微信端API 及静态资源文件 [部署链接](ymtold.md)
-1. ymtO.tgz 
+1. ymt.zip 
 
     后台管理 [部署链接](ymt.md)
 
 ### 外部资源支持
+
+1. 服务器 前期建议双核8G
+1. 域名解析
+   需解析两个域名
+   1. 供API调用 eg: api.youmitu.com
+   2. 后台管理  eg: admin.youmitu.com
+   
 1. 有米兔官方授权TOKEN
 1. 阿里云短信 并申请验证短信模板 
    ```shell
@@ -43,4 +51,3 @@
 1. 微信公众平台(需认证)
 1. 微信支付
 1. 微信推送模板
-1. 
