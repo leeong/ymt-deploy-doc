@@ -40,4 +40,3 @@
         模板CODE:
     ```
     以上四个参数写入配置文件 `ymtOld/server/application/conf_stage.php` 及 `ymtOld/server/application/conf_prod.php` 的 `alisms` 下, 对应的参数替换
-

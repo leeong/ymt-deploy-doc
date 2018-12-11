@@ -1,5 +1,6 @@
-# First Chapter
+# 微信配置
 
+### 微信商户平台 [链接](https://mp.weixin.qq.com)
 
 生成开发者ID(AppID)
 生成开发者密码(AppSecret)
@@ -7,7 +8,6 @@
 
 服务器地址(URL) http://admin.aitenm.com/wechat/server/event
 生成TOKEN
-
 
 微信支付
 
