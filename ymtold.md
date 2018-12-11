@@ -52,8 +52,8 @@ server {
     `ymtOld/server$: composer install`
 1. 文件夹读写权限
     ```shell
-    ymtOld/server$: mkdir runtime
-    ymtOld/server$: sudo chmod -R 755 runtime
+    ymtOld/server$: mkdir runtime public/fans_avatar public/qrcode public/bankquery public/uploads
+    ymtOld/server$: sudo chmod -R 755 runtime public/fans_avatar public/qrcode public/uploads
     ```
 1. 配置文件
 
